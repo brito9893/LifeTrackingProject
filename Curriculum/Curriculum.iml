@@ -8,5 +8,9 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Arquillian JUnit:Release" level="project" />
+    <orderEntry type="module" module-name="Health" exported="" />
+    <orderEntry type="module" module-name="Money" exported="" />
+    <orderEntry type="module" module-name="Study" exported="" />
+    <orderEntry type="module" module-name="Work" exported="" />
   </component>
 </module>
