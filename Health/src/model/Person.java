@@ -13,17 +13,28 @@ public class Person {
     private Date dob;
     private List<Medication> activeMedication;
     private List<Medication> allMedication;
+    private Body body;
 
     public Person(String name, int age, Date dob, List<Medication> activeMedication, List<Medication> allMedication) {
         this.name = name;
-        this.age = age;
         this.dob = dob;
+        this.age = 0;
         this.activeMedication = activeMedication;
         this.allMedication = allMedication;
+        updateAge();
     }
 
     public String getName() {
         return name;
+    }
+
+    public double calculateBodyfatPercentage() {
+        return (1.2 * body.calculateIMC()) + (0.23 * age) - (10.8 * body.getGender()) - 5.4;
+    }
+
+    public void updateAge() {
+        Date actual = new Date();
+        this.age = (int) ((actual.getTime() - dob.getTime()) / 3.16887646 * Math.pow(10, -11));
     }
 
     public void setName(String name) {

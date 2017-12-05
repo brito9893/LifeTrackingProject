@@ -3,6 +3,11 @@ package model;
 import java.util.Objects;
 
 public class Body {
+    /**
+     * 0 - Woman
+     * 1 - Men
+     */
+    private int gender;
     private float weight;
     private float height;
     private float waist;
@@ -23,6 +28,19 @@ public class Body {
         this.rightLeg = -1;
         this.waist = -1;
         this.neck = -1;
+        this.gender = -1;
+    }
+
+    public float calculateIMC() {
+        return (float) (weight / Math.pow(height, 2));
+    }
+
+    public int getGender() {
+        return gender;
+    }
+
+    public void setGender(int gender) {
+        this.gender = gender;
     }
 
     public float getWeight() {

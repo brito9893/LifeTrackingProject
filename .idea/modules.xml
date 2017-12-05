@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Curriculum/Curriculum.iml" filepath="$PROJECT_DIR$/Curriculum/Curriculum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DesktopUI/DesktopUI.iml" filepath="$PROJECT_DIR$/DesktopUI/DesktopUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled/DesktopUI.iml" filepath="$PROJECT_DIR$/../untitled/DesktopUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Emergency/Emergency.iml" filepath="$PROJECT_DIR$/Emergency/Emergency.iml" />
       <module fileurl="file://$PROJECT_DIR$/Health/Health.iml" filepath="$PROJECT_DIR$/Health/Health.iml" />
       <module fileurl="file://$PROJECT_DIR$/LifeTrackingProject.iml" filepath="$PROJECT_DIR$/LifeTrackingProject.iml" />
