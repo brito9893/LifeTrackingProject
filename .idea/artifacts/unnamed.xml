@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="module-output" name="Curriculum" />
+      <element id="module-output" name="DesktopUI" />
+      <element id="module-output" name="Emergency" />
+      <element id="module-output" name="Health" />
+      <element id="module-output" name="Money" />
+      <element id="module-output" name="Study" />
+      <element id="module-output" name="Work" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
