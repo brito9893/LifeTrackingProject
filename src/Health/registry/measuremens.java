@@ -1,4 +1,4 @@
-package registry;
+package Health.registry;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package model;
+package Health.model;
 
 import java.util.Objects;
 
